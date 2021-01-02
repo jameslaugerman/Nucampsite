@@ -1,6 +1,16 @@
-// $('#myModal').modal(options);
-
 $(function() {
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show");
+        console.log("test")
+    });
+
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+        console.log("test")
+    });
+
+
+
     $(".carousel").carousel({
         interval: 2000
     });

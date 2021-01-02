@@ -8,6 +8,7 @@ $body-font: "Open Sans",
 sans-serif;
 $header-font: "Lobster",
 cursive;
+$color-teal: #17A2B8;
 body {
     font-family: $body-font;
 }
@@ -63,4 +64,18 @@ header {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
 }
